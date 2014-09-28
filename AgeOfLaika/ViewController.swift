@@ -30,7 +30,7 @@ class ViewController: UIViewController {
         
         let conversionConstant = 7
         convertedDogYearsLabel.hidden = false
-        convertedDogYearsLabel.text = "\(dogYearsFormTextField + conversionConstant)" + " in Dog Years"
+        convertedDogYearsLabel.text = "\(dogYearsFormTextField * conversionConstant)" + " in Dog Years"
         dogYearsTextField.resignFirstResponder()
     }
 
